@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Script2Video Pro</string>
+
+    <string name="home_title">Create Video</string>
+    <string name="script_input_title">Script Input</string>
+    <string name="duration_title">Duration Selection</string>
+    <string name="ad_unlock_title">Ad Unlock</string>
+    <string name="rendering_title">Rendering</string>
+    <string name="export_share_title">Export &amp; Share</string>
+    <string name="premium_title">Premium</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="watch_ad_to_generate">Watch a rewarded ad to generate this video.</string>
+    <string name="watch_ad_remove_watermark">Watch another ad to remove watermark.</string>
+
+    <string name="plan_weekly">Weekly 7 199</string>
+    <string name="plan_monthly">Monthly 7 399</string>
+    <string name="plan_3month">3 Month 7 699</string>
+
+    <string name="benefit_no_ads">No ads</string>
+    <string name="benefit_no_watermark">No watermark</string>
+    <string name="benefit_higher_limit">Higher daily limit</string>
+</resources>
