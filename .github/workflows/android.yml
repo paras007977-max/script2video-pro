@@ -2,7 +2,7 @@ name: Build Android APK
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
@@ -16,11 +16,12 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
-          distribution: 'temurin'
-          java-version: '17'
+          distribution: temurin
+          java-version: 17
+          cache: gradle
 
       - name: Grant permission
-        run: chmod +x gradlew
+        run: chmod +x ./gradlew || true
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
